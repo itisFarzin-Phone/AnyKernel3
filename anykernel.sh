@@ -38,8 +38,8 @@ PATCH_VBMETA_FLAG=auto;
 . tools/ak3-core.sh;
 
 # set permissions/ownership for included ramdisk files
-chmod -R 750 $ramdisk/*;
-chown -R root:root $ramdisk/*;
+# chmod -R 750 $ramdisk/*;
+# chown -R root:root $ramdisk/*;
 
 ## AnyKernel boot install
 dump_boot;
